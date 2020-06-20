@@ -1,0 +1,103 @@
+body{
+font-family: Courier, Monospace;
+background-color: #daf5dd;}
+
+
+h1{
+color: #590510;
+letter-spacing: 0.35em;
+border-bottom: 5px dashed #072e6e;
+margin-top: 0px;}
+
+p{
+color: #47470e;
+font-size: 20px;
+line-height: 1.4em;}
+
+.Format1{
+font-style: oblique;
+text-decoration: underline;
+word-spacing: 0.6em;}
+
+.Format2{
+text-align: center;
+text-shadow: 7px 5px 4px #b80f20;}
+
+p:first-letter{
+color: #9a18d6;}
+
+a:link{
+color: #d618c0;
+font-size: 1.5em;}
+
+a:visited{
+color: #d61871;}
+
+a:hover{
+color: #6a18d6;}
+
+input{
+padding: 5px 10px 5px 10px;
+border: 1px solid #ba1307;}
+
+input.submit:hover{
+background-color: #26147a;
+color: lightgrey;
+cursor: pointer;}
+
+input.submit:active{
+background-color: #f005a5;}
+
+input.text:focus{
+color: #a607a8;}
+
+div.test_div{
+border-color: grey;
+border-style: solid;
+max-width: 1000px;
+margin: 0 auto;
+padding: 0px 20px;
+box-shadow: 10px 10px 20px #5a03fc;
+border-radius: 15px;}
+
+ul{
+list-style-type: circle;}
+
+table{
+margin: 0 auto;
+width: 900px;
+background-color: #101733;}
+
+th, td{
+padding: 7px 0px 7px 10px;}
+
+th[scope="row"]{
+text-align: left;}
+
+th[scope="col"]{
+text-transform: uppercase;
+text-decoration: underline;}
+
+th{
+border-width: 2px;
+text-align: center;
+background-color: #8877e6;}
+
+td{
+background-color: #77a9f7;
+empty-cells: hide;}
+
+form{
+border: 2px solid grey;
+width: 600px;
+padding: 0px 0px 10px 10px;
+margin: 50px auto 0px auto;
+border-radius: 10px;}
+
+div.top_banner{
+position: sticky;
+background-color: #a5e1f0;
+padding: 10px;
+width: 100%;
+top: 0px;
+margin: -8px;}
